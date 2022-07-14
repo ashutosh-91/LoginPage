@@ -7,6 +7,7 @@ const express=require('express');
 const expressLayouts=require('express-ejs-layouts')
 const mongoose=require('mongoose')
 const passport=require('passport')
+require('dotenv').config()
 //flash and seesion
 const flash=require('connect-flash')
 const session=require('express-session')
