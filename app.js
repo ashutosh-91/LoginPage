@@ -73,5 +73,5 @@ app.use('/users',require('./routes/users'))
 const PORT=process.env.PORT || 3000;
 
 app.listen(PORT,()=>{
-    console.log('Sever started on port 3000')
+    console.log(`Sever started on port ${PORT}`)
 });
